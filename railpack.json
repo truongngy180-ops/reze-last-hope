@@ -1,5 +1,7 @@
 {
+  "apt": ["ffmpeg"],
   "packages": {
-    "ffmpeg": "*"
+    "node": "18",
+    "pnpm": "9"
   }
 }
