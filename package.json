@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "DisTube example music bot.",
   "scripts": {
-    "start": "node .",
+    "start": "tsx index.ts"
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "p": "prettier . --write"
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/distubejs/example#readme",
   "dependencies": {
+    "tsx": "^4.0.0",
     "@discordjs/opus": "^0.9.0",
     "@discordjs/voice": "^0.17.0",
     "@distube/deezer": "^2.0.0",
