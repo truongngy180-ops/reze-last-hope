@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "DisTube example music bot.",
   "scripts": {
-    "start": "tsx index.ts",
+    "start": "tsx src/index.ts",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "p": "prettier . --write"
